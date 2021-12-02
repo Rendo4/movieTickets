@@ -8,6 +8,31 @@
     <title>Movie Ticket </title>
   </head>
   <body>
-
+    <div class="container">
+      <div class="row">
+        <form id="order">
+          <div class="form-group">
+            <label for="customerName">Name:</label>
+            <input type="text" class="form-control" id="customerName">
+          </div>
+          <div class="form-group">
+            <label for="customerAge">Age:</label>
+            <input type="number" class="form-control" id="customerAge">
+          </div>
+          <label for="movie">Movie:</label>
+          <select id="movie">
+            <option value = "dune">Dune</option>
+            <option value = "Spiderman">SpiderMan</option>
+          </select>
+          <label for="time">Time:</label>
+          <select id="time">
+            <option value = "1000">10:00AM</option>
+            <option value = "1430">2:30PM</option>
+            <option value = "2100">9:00PM</option>
+          </select>
+          <button type="submit" class="btn btn-primary">Add Ticket!</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
